@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "windows-build-tools": "^5.2.2",
     "express": "^4.17.1",
-    "graphene-pk11": "^2.1.13",
     "pkcs11js": "^1.0.22",
-    "windows-build-tools": "^5.2.2"
+    "graphene-pk11": "^2.1.13"
   }
 }
