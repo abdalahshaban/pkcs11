@@ -1,0 +1,17 @@
+{
+  "name": "pkcs11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphene-pk11": "^2.1.13",
+    "pkcs11js": "^1.0.22",
+    "windows-build-tools": "^5.2.2"
+  }
+}
