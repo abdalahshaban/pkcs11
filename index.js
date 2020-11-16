@@ -2,7 +2,7 @@ const express = require('express')();
 var pkcs11js = require("pkcs11js");
 
 var pkcs11 = new pkcs11js.PKCS11();
-pkcs11.load("./lib/eps2003csp11.dll");
+pkcs11.load("./lib/libcastle.so");
 // 
 pkcs11.C_Initialize();
 
